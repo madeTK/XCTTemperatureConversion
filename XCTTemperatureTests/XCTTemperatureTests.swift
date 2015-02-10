@@ -21,16 +21,22 @@ class XCTTemperatureTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
+    
+    
+    // Schritt 1 Test schreiben (bisher haben wir nur im Storyboard zwei Textfelder!). 
+    // we start using "self" and we start implementing the MethodUnderTest here, test it, then export it
+    
+    func testThatMinusFortyCelsiusIsMinusFortyFahrenheit() {
+        let textField = FakeTextContainer()
+        textField.text = "-40"
+        self.textFieldShouldReturn(textField) // we simulate a "enter" on the textfield
         // This is an example of a functional test case.
         XCTAssert(true, "Pass")
     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measureBlock() {
-            // Put the code you want to measure the time of here.
-        }
-    }
+    // dadurch, dass wir anyobject im folgenden verwenden, sind wir oben im test flexibel
+    func textFieldShouldReturn(celsiusField: AnyObject) -> Bool {
+        println("Return was pressed")
+        return true    }
     
 }

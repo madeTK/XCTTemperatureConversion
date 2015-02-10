@@ -14,6 +14,9 @@
 		6EC1C2AB1A89C46F0042D274 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EC1C2AA1A89C46F0042D274 /* Images.xcassets */; };
 		6EC1C2AE1A89C46F0042D274 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EC1C2AC1A89C46F0042D274 /* LaunchScreen.xib */; };
 		6EC1C2BA1A89C4700042D274 /* XCTTemperatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC1C2B91A89C4700042D274 /* XCTTemperatureTests.swift */; };
+		6EC1C2C41A89CA170042D274 /* FakeTextContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC1C2C31A89CA170042D274 /* FakeTextContainer.swift */; };
+		6EC1C2C51A89CA540042D274 /* FakeTextContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC1C2C31A89CA170042D274 /* FakeTextContainer.swift */; };
+		6EC1C2C61A89CA580042D274 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC1C2A51A89C46F0042D274 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,7 @@
 		6EC1C2B31A89C4700042D274 /* XCTTemperatureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCTTemperatureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EC1C2B81A89C4700042D274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EC1C2B91A89C4700042D274 /* XCTTemperatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTTemperatureTests.swift; sourceTree = "<group>"; };
+		6EC1C2C31A89CA170042D274 /* FakeTextContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeTextContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 			children = (
 				6EC1C2A01A89C46F0042D274 /* AppDelegate.swift */,
 				6EC1C2A51A89C46F0042D274 /* ViewController.swift */,
+				6EC1C2C31A89CA170042D274 /* FakeTextContainer.swift */,
 				6EC1C2A71A89C46F0042D274 /* Main.storyboard */,
 				6EC1C2AA1A89C46F0042D274 /* Images.xcassets */,
 				6EC1C2AC1A89C46F0042D274 /* LaunchScreen.xib */,
@@ -216,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EC1C2A61A89C46F0042D274 /* ViewController.swift in Sources */,
+				6EC1C2C41A89CA170042D274 /* FakeTextContainer.swift in Sources */,
 				6EC1C2A41A89C46F0042D274 /* XCTTemperature.xcdatamodeld in Sources */,
 				6EC1C2A11A89C46F0042D274 /* AppDelegate.swift in Sources */,
 			);
@@ -225,7 +231,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EC1C2C61A89CA580042D274 /* ViewController.swift in Sources */,
 				6EC1C2BA1A89C4700042D274 /* XCTTemperatureTests.swift in Sources */,
+				6EC1C2C51A89CA540042D274 /* FakeTextContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
