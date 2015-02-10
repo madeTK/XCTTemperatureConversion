@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EC1C2A11A89C46F0042D274 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC1C2A01A89C46F0042D274 /* AppDelegate.swift */; };
+		6EC1C2A41A89C46F0042D274 /* XCTTemperature.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6EC1C2A21A89C46F0042D274 /* XCTTemperature.xcdatamodeld */; };
+		6EC1C2A61A89C46F0042D274 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC1C2A51A89C46F0042D274 /* ViewController.swift */; };
+		6EC1C2A91A89C46F0042D274 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EC1C2A71A89C46F0042D274 /* Main.storyboard */; };
+		6EC1C2AB1A89C46F0042D274 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EC1C2AA1A89C46F0042D274 /* Images.xcassets */; };
+		6EC1C2AE1A89C46F0042D274 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EC1C2AC1A89C46F0042D274 /* LaunchScreen.xib */; };
+		6EC1C2BA1A89C4700042D274 /* XCTTemperatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC1C2B91A89C4700042D274 /* XCTTemperatureTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6EC1C2B41A89C4700042D274 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EC1C2931A89C46F0042D274 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EC1C29A1A89C46F0042D274;
+			remoteInfo = XCTTemperature;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6EC1C29B1A89C46F0042D274 /* XCTTemperature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCTTemperature.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EC1C29F1A89C46F0042D274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EC1C2A01A89C46F0042D274 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6EC1C2A31A89C46F0042D274 /* XCTTemperature.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = XCTTemperature.xcdatamodel; sourceTree = "<group>"; };
+		6EC1C2A51A89C46F0042D274 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6EC1C2A81A89C46F0042D274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6EC1C2AA1A89C46F0042D274 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6EC1C2AD1A89C46F0042D274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6EC1C2B31A89C4700042D274 /* XCTTemperatureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCTTemperatureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EC1C2B81A89C4700042D274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EC1C2B91A89C4700042D274 /* XCTTemperatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTTemperatureTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EC1C2981A89C46F0042D274 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EC1C2B01A89C4700042D274 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EC1C2921A89C46F0042D274 = {
+			isa = PBXGroup;
+			children = (
+				6EC1C29D1A89C46F0042D274 /* XCTTemperature */,
+				6EC1C2B61A89C4700042D274 /* XCTTemperatureTests */,
+				6EC1C29C1A89C46F0042D274 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EC1C29C1A89C46F0042D274 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EC1C29B1A89C46F0042D274 /* XCTTemperature.app */,
+				6EC1C2B31A89C4700042D274 /* XCTTemperatureTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EC1C29D1A89C46F0042D274 /* XCTTemperature */ = {
+			isa = PBXGroup;
+			children = (
+				6EC1C2A01A89C46F0042D274 /* AppDelegate.swift */,
+				6EC1C2A51A89C46F0042D274 /* ViewController.swift */,
+				6EC1C2A71A89C46F0042D274 /* Main.storyboard */,
+				6EC1C2AA1A89C46F0042D274 /* Images.xcassets */,
+				6EC1C2AC1A89C46F0042D274 /* LaunchScreen.xib */,
+				6EC1C2A21A89C46F0042D274 /* XCTTemperature.xcdatamodeld */,
+				6EC1C29E1A89C46F0042D274 /* Supporting Files */,
+			);
+			path = XCTTemperature;
+			sourceTree = "<group>";
+		};
+		6EC1C29E1A89C46F0042D274 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EC1C29F1A89C46F0042D274 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6EC1C2B61A89C4700042D274 /* XCTTemperatureTests */ = {
+			isa = PBXGroup;
+			children = (
+				6EC1C2B91A89C4700042D274 /* XCTTemperatureTests.swift */,
+				6EC1C2B71A89C4700042D274 /* Supporting Files */,
+			);
+			path = XCTTemperatureTests;
+			sourceTree = "<group>";
+		};
+		6EC1C2B71A89C4700042D274 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EC1C2B81A89C4700042D274 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EC1C29A1A89C46F0042D274 /* XCTTemperature */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EC1C2BD1A89C4700042D274 /* Build configuration list for PBXNativeTarget "XCTTemperature" */;
+			buildPhases = (
+				6EC1C2971A89C46F0042D274 /* Sources */,
+				6EC1C2981A89C46F0042D274 /* Frameworks */,
+				6EC1C2991A89C46F0042D274 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XCTTemperature;
+			productName = XCTTemperature;
+			productReference = 6EC1C29B1A89C46F0042D274 /* XCTTemperature.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6EC1C2B21A89C4700042D274 /* XCTTemperatureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EC1C2C01A89C4700042D274 /* Build configuration list for PBXNativeTarget "XCTTemperatureTests" */;
+			buildPhases = (
+				6EC1C2AF1A89C4700042D274 /* Sources */,
+				6EC1C2B01A89C4700042D274 /* Frameworks */,
+				6EC1C2B11A89C4700042D274 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EC1C2B51A89C4700042D274 /* PBXTargetDependency */,
+			);
+			name = XCTTemperatureTests;
+			productName = XCTTemperatureTests;
+			productReference = 6EC1C2B31A89C4700042D274 /* XCTTemperatureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EC1C2931A89C46F0042D274 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = madeTK.com;
+				TargetAttributes = {
+					6EC1C29A1A89C46F0042D274 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					6EC1C2B21A89C4700042D274 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 6EC1C29A1A89C46F0042D274;
+					};
+				};
+			};
+			buildConfigurationList = 6EC1C2961A89C46F0042D274 /* Build configuration list for PBXProject "XCTTemperature" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EC1C2921A89C46F0042D274;
+			productRefGroup = 6EC1C29C1A89C46F0042D274 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EC1C29A1A89C46F0042D274 /* XCTTemperature */,
+				6EC1C2B21A89C4700042D274 /* XCTTemperatureTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EC1C2991A89C46F0042D274 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EC1C2A91A89C46F0042D274 /* Main.storyboard in Resources */,
+				6EC1C2AE1A89C46F0042D274 /* LaunchScreen.xib in Resources */,
+				6EC1C2AB1A89C46F0042D274 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EC1C2B11A89C4700042D274 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EC1C2971A89C46F0042D274 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EC1C2A61A89C46F0042D274 /* ViewController.swift in Sources */,
+				6EC1C2A41A89C46F0042D274 /* XCTTemperature.xcdatamodeld in Sources */,
+				6EC1C2A11A89C46F0042D274 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EC1C2AF1A89C4700042D274 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EC1C2BA1A89C4700042D274 /* XCTTemperatureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6EC1C2B51A89C4700042D274 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EC1C29A1A89C46F0042D274 /* XCTTemperature */;
+			targetProxy = 6EC1C2B41A89C4700042D274 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6EC1C2A71A89C46F0042D274 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EC1C2A81A89C46F0042D274 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6EC1C2AC1A89C46F0042D274 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EC1C2AD1A89C46F0042D274 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EC1C2BB1A89C4700042D274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6EC1C2BC1A89C4700042D274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EC1C2BE1A89C4700042D274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XCTTemperature/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6EC1C2BF1A89C4700042D274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XCTTemperature/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6EC1C2C11A89C4700042D274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = XCTTemperatureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XCTTemperature.app/XCTTemperature";
+			};
+			name = Debug;
+		};
+		6EC1C2C21A89C4700042D274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = XCTTemperatureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XCTTemperature.app/XCTTemperature";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EC1C2961A89C46F0042D274 /* Build configuration list for PBXProject "XCTTemperature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EC1C2BB1A89C4700042D274 /* Debug */,
+				6EC1C2BC1A89C4700042D274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EC1C2BD1A89C4700042D274 /* Build configuration list for PBXNativeTarget "XCTTemperature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EC1C2BE1A89C4700042D274 /* Debug */,
+				6EC1C2BF1A89C4700042D274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6EC1C2C01A89C4700042D274 /* Build configuration list for PBXNativeTarget "XCTTemperatureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EC1C2C11A89C4700042D274 /* Debug */,
+				6EC1C2C21A89C4700042D274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6EC1C2A21A89C46F0042D274 /* XCTTemperature.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6EC1C2A31A89C46F0042D274 /* XCTTemperature.xcdatamodel */,
+			);
+			currentVersion = 6EC1C2A31A89C46F0042D274 /* XCTTemperature.xcdatamodel */;
+			path = XCTTemperature.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6EC1C2931A89C46F0042D274 /* Project object */;
+}
